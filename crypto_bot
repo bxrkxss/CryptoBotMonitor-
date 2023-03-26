@@ -9,12 +9,12 @@ from aiogram.utils.executor import start_polling
 import logging
 
 # Введите ваш Binance API-ключ и секретный ключ
-api_key = "mZDKIgZNKhIXadYPdWFrxcjjEfbHs5XnBhYQfZQ8gxnrkV5PQ9sCmhUVSREm4JUf"
-secret_key = "eKvXrQwPA4KhMVlyG3vnmm5tW6W6N3yBrtVcHQtOsi0MIs8ZjAA0tJaKSONxgOPv"
+api_key = "binance api key"
+secret_key = "binance api secret"
 
 # Введите ваш токен бота и ID вашего канала
-API_TOKEN = '5938974300:AAGOnRnEO3mIA2nQK4g2AH0A6--hqARsz_o'
-channel_id = -1001410584377  # Замените на ваш ID канала
+API_TOKEN = 'tg bot api token'
+channel_id = -100xxxxxx7  # Замените на ваш ID канала
 
 # Список криптовалютных пар
 crypto_pairs = ["BTCUSDT", "ETHUSDT", "BNBUSDT", "ADAUSDT", "DOTUSDT", "XRPUSDT", "SOLUSDT", "LUNAUSDT", "LINKUSDT", "MATICUSDT", "ALGOUSDT", "AVAXUSDT", "FILUSDT", "XTZUSDT", "DOGEUSDT", "ATOMUSDT", "VETUSDT", "TRXUSDT", "XLMUSDT", "SUSHIUSDT", "EGLDUSDT", "1INCHUSDT", "ICXUSDT", "FTMUSDT", "ZILUSDT", "HNTUSDT", "CHRUSDT", "ZENUSDT", "CTKUSDT", "DODOUSDT", "GRTUSDT", "MASKUSDT", "OGNUSDT", "OCEANUSDT", "BATUSDT", "CELRUSDT", "DENTUSDT", "STORJUSDT", "REEFUSDT", "TLMUSDT", "LINAUSDT",  "GHSTUSDT", "LITUSDT", "FRONTUSDT", "VTHOUSDT", "PERLUSDT", "MTLUSDT", "DREPUSDT", "CVCUSDT", "ARDRUSDT", "BANDUSDT", "SRMUSDT", "BTSUSDT", "AXSUSDT", "SCUSDT", "STMXUSDT", "WINUSDT", "BLZUSDT", "COTIUSDT", "TWTUSDT", "ZRXUSDT"]
